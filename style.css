@@ -1,0 +1,23 @@
+.monday td:first-child {
+    background-color: red;
+}
+
+.monday td:last-child {
+    background-color: green;
+}
+
+.monday td:nth-child(even) {
+    background-color: blue;
+}
+
+.monday td:nth-child(odd) {
+    background-color: brown;
+}
+
+.monday td:first-child:hover {
+    background-color: lime;
+}
+
+td {
+    font-family: "Montserrat", serif;
+}
